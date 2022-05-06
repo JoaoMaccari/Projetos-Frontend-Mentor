@@ -1,0 +1,53 @@
+* {
+    padding: 0px;
+    margin: 0px;
+}
+
+.container{
+    position: relative;
+    left: 10%;
+    padding: 10px;
+}
+
+.bola {
+    width: 40px;
+    border: 1px crimson solid;
+    height: 40px;
+    border-radius: 50%;
+    
+}
+
+.star {
+    
+}
+
+.h1{
+    
+}
+
+.card {
+    
+}
+
+.star, .h1, .card, .list-item, .submit-btn {
+    margin: 15px;
+}
+
+.container {
+    border: 1px crimson solid;
+    width: 500px;
+}
+
+.list-item {
+    display: inline-block;
+    margin-left: 30px;
+    border: 1px crimson solid;
+    padding: 15px;
+    border-radius: 50px;
+}
+
+.submit-btn {
+    display: block;
+    margin: 0 auto;
+    width: 70%;
+}
