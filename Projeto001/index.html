@@ -11,23 +11,48 @@
     <div class="container">
        
              <div class="star"><img src="/Projeto001/images/icon-star.svg"   alt="star-icon"></div>
+
         <div class="card">
-            <h1 class="h1">how did we do?</h1>
+            <h1 class="first-h1">how did we do?</h1>
             <p class="text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolor quibusdam omnis non odit, aut quia officia ipsam ratione et doloremque unde laboriosam voluptatem velit adipisci voluptate beatae voluptatum fuga corporis.</p>
         </div>
 
         <ul class="list">
-            <li class="list-item">1</li>
-            <li  class="list-item">2</li>
-            <li  class="list-item">3</li>
-            <li  class="list-item">4</li>
-            <li  class="list-item">5</li>
-        </ul>
+            <button value="1" id="first-item" class="list-item" onclick="choseNota(this)">1</button>
+            <button class="list-item">2</button>
+            <button class="list-item">3</button>
+            <button class="list-item">4</button>
+            <button class="list-item">5</button>
 
-        <a href="./pagina-secundaria/thanks.html"><input class="submit-btn" type="button" value="suimit" onclick="selectItem()"></a>
+        </ul>
         
         
+
+        <button onclick="selectItem()" class="submit-btn"><a href="">subimit</a></button>
+
     </div>
+
+    <!--                   SEGUNDO CARD                                   -->
+
+
+
+    <div class="container2">
+       
+             
+        <div class="card">
+
+            <img class="imagem" src="./images/illustration-thank-you.svg" alt="thankyou-image">
+            
+            <p class="selected">texto</p>
+
+            <h1 class="second-h1">thank you!</h1>
+            <p class="text">We apreciate you taking the time to give a rating.If
+                you need more support, dont't hesitate to get in touch"
+            </p>
+        </div>
+
+    </div>
+    
 
     <script src="js/script.js"></script>
 </body>
