@@ -3,51 +3,80 @@
     margin: 0px;
 }
 
-.container{
-    position: relative;
-    left: 10%;
-    padding: 10px;
+body {
+    background-color: grey
 }
 
-.bola {
-    width: 40px;
-    border: 1px crimson solid;
-    height: 40px;
-    border-radius: 50%;
-    
+.container{
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    padding: 10px;
+    transform: translate(-50%, -50%);
+    border-radius: 10%;
+    background-color: rgb(31, 31, 150);
 }
+
 
 .star {
-    
+    display: inline-block;
+    border-radius: 50%;
+    padding: 15px;
+    background-color: rgb(59, 59, 235);
 }
 
 .h1{
-    
+   
 }
 
 .card {
-    
+    font-size: 15px;
 }
 
-.star, .h1, .card, .list-item, .submit-btn {
+.star, .h1, .card, .list-item, .submit-btn, .text {
     margin: 15px;
+    color: white;
 }
 
 .container {
-    border: 1px crimson solid;
     width: 500px;
+}
+
+#first-item{
+    margin-left: 80px;
 }
 
 .list-item {
     display: inline-block;
-    margin-left: 30px;
-    border: 1px crimson solid;
     padding: 15px;
     border-radius: 50px;
+    background-color: rgb(59, 59, 235);
+}
+
+.list-item:hover {
+    background-color: orange;
+
+}
+
+.list-item:active {
+    background-color: grey;
 }
 
 .submit-btn {
     display: block;
     margin: 0 auto;
-    width: 70%;
+    width: 78%;
+    border-radius: 30px;
+    padding: 15px;
+    background-color: orange;
+    font-size: 15px;
+    text-transform: uppercase;
+    letter-spacing: 3px;
+    
 }
+
+.submit-btn:hover{
+background-color: white;
+color: orange;
+}
+
