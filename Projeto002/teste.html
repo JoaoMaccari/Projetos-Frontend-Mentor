@@ -5,10 +5,14 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <style>
+        *{
+            padding: 0;
+            margin: 0;
+        }
         .container{
           border: 1px solid magenta;
           height: 100vh;
-          width: 100vw;
+          width: 98vw;
           background-color: rgb(7, 7, 53);
           position: relative;
         }
@@ -29,6 +33,17 @@
             
         }
 
+         li {
+            float: right;
+        }
+
+        @media only screen and (min-width: 1440px ) {
+            .card {
+                width: 28%;
+            }
+        }
+
+
     
     </style>
     <title>Document</title>
@@ -36,8 +51,16 @@
 <body>
     <main class="container">
         <div class="card">
-            <p>item 1</p>
-            <p>item2</p>
+            <h1>titulo</h1>
+
+            <ul>
+                <li>1</li>
+                <li>2</li>
+                <li>3</li>
+            </ul>
+                
+            
+
            
         </div>
 
