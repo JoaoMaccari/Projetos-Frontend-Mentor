@@ -3,11 +3,11 @@ function choseNota(b) {
     let ratting = document.getElementsByClassName("selected")[0];
 
     let valor = b.value
-    ratting.innerHTML = `${valor}`    
+    ratting.innerHTML = `You selected ${valor} out of 5`    
 }
 
 
-//criar uma função para a primeira pagina sair da frente da segunda
-//com
-//z index
-//ou dar um display none na primeira pagina
+function trocaIndex () {
+    var container = document.getElementsByClassName("container2")[0];
+    container.style.zIndex = "2"
+}

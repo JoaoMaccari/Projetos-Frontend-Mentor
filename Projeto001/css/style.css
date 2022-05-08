@@ -15,7 +15,7 @@ body {
     transform: translate(-50%, -50%);
     border-radius: 10%;
     background-color: darkblue;
-     width: 500px;
+    width: 500px;
     
 }
 
@@ -79,7 +79,7 @@ body {
     
 }
 
-.submit-btn:hover,a{
+.submit-btn:hover{
 background-color: white;
 color: orange;
 text-decoration: none;
@@ -91,7 +91,7 @@ text-decoration: none;
 
 .container2{
     width: 500px;
-    background-color: rgb(31, 31, 150);
+    background-color: darkblue;
     display: inline-block;
     position: absolute;
     left: 50%;
@@ -100,7 +100,7 @@ text-decoration: none;
     transform: translate(-50%, -50%);
     border-radius: 10%;
     padding: 10px;
-    
+    z-index: -1;
 }
 
 .imagem {
@@ -111,10 +111,12 @@ text-decoration: none;
 
 .selected{
  display: block;
- border: 1px solid red;
+ background-color: rgb(59, 59, 235);
+ border-radius: 30px;
  width: 30%;
  margin: auto;
  text-align: center;
+ color: orange;
  
  
 }
@@ -128,7 +130,7 @@ text-decoration: none;
     text-align: center;
 }
 
-.imagem, .selected, .second-h1, .text{
-    padding: 10px;
+.imagem, .selected, .second-h1{
+    padding: 20px;
 }
 
