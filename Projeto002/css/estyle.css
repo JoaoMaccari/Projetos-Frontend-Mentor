@@ -26,6 +26,7 @@ body {
     background-color: hsl(214, 23%, 14%);
     border-radius: 1.2rem;
     color: white;
+    padding: 20px;
 }
 
 .star {
@@ -58,7 +59,15 @@ body {
     border-radius: 50%;
     background-color: hsl(213, 19%, 18%);
     color: hsl(216, 12%, 54%);
-    
+    border: none;
+}
+
+.btn:hover{
+    background-color: hsl(25, 97%, 53%);
+}
+
+.btn:focus{
+    background-color: hsl(217, 12%, 63%);
 }
 
 .container-btns{
@@ -72,8 +81,8 @@ body {
     margin-top: 0.6rem;
     margin-left: 0.9rem;
     margin-bottom: 1.9rem;
-    
 }
+
 
 #second-btn{
     margin-left: 0.4rem;
@@ -97,11 +106,55 @@ body {
 }
 
 .subimit {
-    
+    text-transform: uppercase;
     width: 83%;
     border-radius: 1.3rem;
     padding: 0.9rem;
     display: block;
     margin: auto;
+    letter-spacing: 3px;
+    color: white;
+    background-color: hsl(25, 97%, 53%);
+}
+
+.subimit:hover{
+    background-color: white;
+    color: hsl(25, 97%, 53%);;
+}
+
+/*                          SEGUNDO CARD                                         */
+
+.second-card{
+    width: 29%;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    background-color: hsl(214, 23%, 14%);
+    border-radius: 1.2rem;
+    color: white;
+    padding: 25px;
+}
+
+.img{
+    display: block;
+    text-align: center;
+}
+
+.score{
+    margin: 1.4rem ;
+    text-align: center;
+}
+
+.thanks{
     
+    margin: 1.1rem;
+    text-align: center;
+}
+
+.texto {
+    margin: 1.7rem;
+    line-height: 1.5rem;
+    color: hsl(216, 12%, 54%);
+    line-height: 1.5rem;
 }
