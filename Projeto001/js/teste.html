@@ -8,23 +8,41 @@
 </head>
 <body>
 
-    <h1 onclick="f(this)">titulo</h1>
+    <div id="d1">
+        <h1>Titulo</h1>
+        <p>qualquer coisa</p>
+    </div>
+
+    <div id="d2">
+        <h1>Titulo2</h1>
+        <p>qualquer coisa2</p>
+    </div>
     
 
     <script>
-        function f(tag) {
-            console.log(tag)
-            console.log(this)
+
+        //pego a colection de h1 em uma variavel
+        let h1 = document.getElementsByTagName("h1");
+       
+        //crio um for para que o h receba os h1's
+            //h recebe o conteudo do primeiro h1(titulo)
+        for (let h of h1) {
+            console.log(h)
+            // variavel do titulo recebe um evento de click que redireciona para a funcao qop
+            h.addEventListener("click", qop)
+        }
+        
+                //funcao recebe um argumento que se refere ao elemento que esta disparando a função(o click transfere o h que é o h1 para o e)
+        function qop(e) {
+            //
+             let t = e.target;
+             //h chamando seu pai
+            console.log(t.parentElement)
+
         }
 
-            //     let h1 = document.getElementsByTagName("h1")[0];
-            //     h1.addEventListener("click" ,f1)
-
-            //     function f1(e) {
-            //     console.log(e.target)
-            
-            // }
-
+       
+       
        
     </script>
 </body>
