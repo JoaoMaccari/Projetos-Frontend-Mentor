@@ -6,7 +6,6 @@
 
 /*                         CONTAINER PRINCIPAL 1440 X 800*/
 .main-container{
-    border: 2px solid magenta;
     height: 100vh;
     width: 100vw;
     position: relative;
@@ -27,30 +26,93 @@
  /*                          CONTAINER DOS CARDS            */
 .container{
     width: 64%;
-    border: 1px solid blue;
-    position: relative;
+
     clear: both;
     position: absolute;
     left: 50%;
     top: 50%;
     transform: translate(-50%, -50%);
-    
+    border-radius: 8px;
 }
 
 
 /*                           CLASSE DOS CARDS */
 .car-container{
-    
     width: 33%;
-    border: 1px solid green;
     float: left;
+    color: hsla(0, 0%, 100%, 0.75);
+    padding-bottom: 20px;
+    
 }
+
 
 .car-container h1 {
-    margin-left: 44px;
+    margin-left: 3rem;
+    margin-bottom: 1.8px;
+    text-transform: uppercase;
+    margin-top: 40px;
+    font-size: 42px;
+   font-family: 'Big Shoulders Display', cursive;
+    
 }
 
+#sedan {
+    background-color:  hsl(31, 77%, 52%);
+    border-top-left-radius: 8px;
+    border-bottom-left-radius: 8px;
+}
+
+#suv {
+    background-color: hsl(184, 100%, 22%);
+}
+
+#luxury {
+    background-color: hsl(179, 100%, 13%);
+    border-top-right-radius: 8px;
+    border-bottom-right-radius: 8px;
+}
+.paragrafo{
+    text-align: justify;
+    line-height: 1.6rem;
+    max-width: 66%;
+    margin: auto;
+    margin-bottom: 2.2rem;
+    margin-top: 30px;
+    font-size: 15px;
+    font-family: 'Lexend Deca', sans-serif;
+}
+
+
+
 .car-logo{
-    margin: 40px;
+   margin-left: 48px;
+   margin-top: 55px;
+}
+
+.btn {
+    background-color: hsl(0, 0%, 95%);
+    margin-top: 60px;
+    margin-bottom: 24px;
+    margin-left: 48px;
+    display: inline-block;
+    padding: 0.9rem;
+    border: none;
+    border-radius: 2.5rem;
+    width: 48%;
+    font-size: 18px;
+    font-family: 'Big Shoulders Display', cursive;
+}
+
+#btn-sedan{
+    color: hsl(31, 77%, 52%);
+    
+}
+
+#btn-suv{
+    color: hsl(184, 100%, 22%);
+}
+
+#btn-luxury{
+    color: hsl(179, 100%, 13%);
 }
 
