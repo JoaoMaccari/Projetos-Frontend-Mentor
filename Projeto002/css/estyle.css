@@ -169,3 +169,25 @@ body {
     margin-bottom: 2.0rem;
     
 }
+
+@media screen and (max-width: 375px) {
+    .card{
+        width:75%;
+    }
+
+    .container-btns{
+        width: 100%;
+        
+    }
+
+    .div-btns{
+        border: solid 1px rebeccapurple;
+        margin-left: -3px;
+        
+    }
+
+    .second-card{
+        width: 78%;
+        height: 65%;
+    }
+}
