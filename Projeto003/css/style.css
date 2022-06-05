@@ -1,145 +1,105 @@
 *{
-    padding: 0px;
     margin: 0px;
+    padding: 0px;
     box-sizing: border-box;
 }
 
-/*                         CONTAINER PRINCIPAL 1440 X 800*/
-.main-container{
-    height: 100vh;
+body{
+    font-family: 'Kumbh Sans', sans-serif;
+    font-size: 12px;
+    background: linear-gradient(hsl(273, 75%, 66%), hsl(240, 73%, 65%) );
+    
+}
+
+.main_container{
     width: 100vw;
+    height: 100vh;
     position: relative;
 }
 
-/*                        CLEAR DO CONTAINER QUE ENGLOBA OS CARDS */
-#clearfix:before,
-#clearfix:after{
-    content: "";
-    display: table;
-}
-
-#clearfix::after{
-    clear: both;
-}
-
-
- /*                          CONTAINER DOS CARDS            */
-.container{
-    width: 64%;
-
-    clear: both;
+.card{
+    background: white;
+    border-radius: 30px;
     position: absolute;
-    left: 50%;
-    top: 50%;
+    border: 1px solid purple;
+    width: 63%;
+    left: 51%;
+    top: 43%;
     transform: translate(-50%, -50%);
-    border-radius: 8px;
+    padding: 30px;
+   
 }
 
-
-/*                           CLASSE DOS CARDS */
-.car-container{
-    width: 33%;
-    float: left;
-    color: hsla(0, 0%, 100%, 0.75);
-    padding-bottom: 20px;
-    
-}
-
-
-.car-container h1 {
-    margin-left: 3rem;
-    margin-bottom: 1.8px;
-    text-transform: uppercase;
-    margin-top: 40px;
-    font-size: 42px;
-   font-family: 'Big Shoulders Display', cursive;
-    
-}
-
-#sedan {
-    background-color:  hsl(31, 77%, 52%);
-    border-top-left-radius: 8px;
-    border-bottom-left-radius: 8px;
-}
-
-#suv {
-    background-color: hsl(184, 100%, 22%);
-}
-
-#luxury {
-    background-color: hsl(179, 100%, 13%);
-    border-top-right-radius: 8px;
-    border-bottom-right-radius: 8px;
-}
-.paragrafo{
-    text-align: justify;
-    line-height: 1.6rem;
-    max-width: 66%;
-    margin: auto;
-    margin-bottom: 2.2rem;
-    margin-top: 30px;
-    font-size: 15px;
-    font-family: 'Lexend Deca', sans-serif;
-}
-
-
-
-.car-logo{
-   margin-left: 48px;
-   margin-top: 55px;
-}
-
-.btn {
-    background-color: hsl(0, 0%, 95%);
-    margin-top: 60px;
-    margin-bottom: 24px;
-    margin-left: 48px;
+/* .img{
+    width: 50%;
+    margin-right: 30px;
+    position: relative;
+    border: 1px solid slateblue;
     display: inline-block;
-    padding: 0.9rem;
-    border: none;
-    border-radius: 2.5rem;
-    width: 48%;
-    font-size: 18px;
-    font-family: 'Big Shoulders Display', cursive;
-}
+    margin-top: 25px;
+   
+} */
 
-#btn-sedan{
-    color: hsl(31, 77%, 52%);
+.imagem{
+    position: absolute;
     
 }
+.box{
+position: absolute;
 
-#btn-suv{
-    color: hsl(184, 100%, 22%);
-}
-
-#btn-luxury{
-    color: hsl(179, 100%, 13%);
-}
-
-
-@media screen and  (max-width: 375px) {
-
-    .main-container{
-        
-       min-height: 100vh;
-       
-        
-    }
-
-    .container{
-      border: rgb(151, 121, 111) 2px solid;
-      height: 100%;
-      width: 94%;
-    }
-
-    .car-container{
-        float: none;
-        margin: auto;
-        width: 100%;
-        float: none;
-        display: block;
-        
-    }
+left: 15px;
 
    
 }
+
+.title{
+    font-size: 3rem;
+    text-transform: uppercase;
+}
+
+.accordion_content{
+    position: absolute;
+    display: inline-block;
+    top: 14%;
+    width: 40%;
+    right: 15px;
+    
+}
+
+.accordion{
+    cursor: pointer;
+    width: 100%;
+    border: none;
+    text-align: left;
+    font-size: 20px;
+    border-bottom: solid 1px gray;
+    padding: 15px;
+    font-weight: 400;
+    color:  hsl(237, 12%, 33%);
+    display: inline-block;
+    
+}
+
+.answer_panel{
+    display: none;
+    font-size: 1.0rem;
+    padding: 0 18px;
+
+}
+
+.question_answer{
+    width: 350px;
+    border-bottom: #e8e8ea;
+}
+
+.arrow{
+    float: right;
+}
+
+
+
+
+
+
+
+
