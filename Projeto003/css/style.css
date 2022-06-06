@@ -20,9 +20,10 @@ body{
 .card{
     background: white;
     border-radius: 30px;
-    position: absolute;
+    position: relative;
     border: 1px solid purple;
     width: 63%;
+    height: 509px;;
     left: 51%;
     top: 43%;
     transform: translate(-50%, -50%);
@@ -30,7 +31,11 @@ body{
    
 }
 
-/* .img{
+.image_wrapper{
+    position: relative;
+}
+
+.img{
     width: 50%;
     margin-right: 30px;
     position: relative;
@@ -38,18 +43,17 @@ body{
     display: inline-block;
     margin-top: 25px;
    
-} */
-
-.imagem{
-    position: absolute;
-    
 }
+
+.imagen{
+    position: relative;
+}
+
+
 .box{
 position: absolute;
+top: 50%;
 
-left: 15px;
-
-   
 }
 
 .title{
