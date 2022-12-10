@@ -1,5 +1,5 @@
 //pego meu accordion em uma classe, cada accordion é um dindice da classe
-let accordion = document.getElementsByClassName("accordion");
+let accordion = document.getElementsByClassName("question");
 console.log(accordion);
 var i;
 
